@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1620C991DCD855500CB56ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1620C981DCD855500CB56ED /* AppDelegate.m */; };
+		A1620C9C1DCD855500CB56ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1620C9B1DCD855500CB56ED /* main.m */; };
+		A1620C9F1DCD855500CB56ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1620C9E1DCD855500CB56ED /* ViewController.m */; };
+		A1620CA11DCD855500CB56ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1620CA01DCD855500CB56ED /* Assets.xcassets */; };
+		A1620CAF1DCD855500CB56ED /* macOSCoderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1620CAE1DCD855500CB56ED /* macOSCoderTests.m */; };
+		A1620CBA1DCD855500CB56ED /* macOSCoderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1620CB91DCD855500CB56ED /* macOSCoderUITests.m */; };
+		A1620CC71DCD85C900CB56ED /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1620CA51DCD855500CB56ED /* Info.plist */; };
+		A1620CC91DCD85FA00CB56ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1620CC81DCD85FA00CB56ED /* Main.storyboard */; };
+		A1620CCB1DCD898100CB56ED /* CPlusPlusBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = A1620CCA1DCD898100CB56ED /* CPlusPlusBridge.mm */; };
+		A1620CCF1DCD8C9B00CB56ED /* RunFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1620CCD1DCD8C9B00CB56ED /* RunFactory.cpp */; };
+		A1620CD21DCD8EF200CB56ED /* Performer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1620CD01DCD8EF200CB56ED /* Performer.cpp */; };
+		A1620CD51DCE43DB00CB56ED /* LazySpellingBee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1620CD31DCE43DB00CB56ED /* LazySpellingBee.cpp */; };
+		A1620CD91DCE45F400CB56ED /* MakeDictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1620CD71DCE45F400CB56ED /* MakeDictionary.cpp */; };
+		A1620CDC1DCE46A900CB56ED /* Dictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1620CDA1DCE46A900CB56ED /* Dictionary.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1620CAB1DCD855500CB56ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1620C8C1DCD855500CB56ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1620C931DCD855500CB56ED;
+			remoteInfo = macOSCoder;
+		};
+		A1620CB61DCD855500CB56ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1620C8C1DCD855500CB56ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1620C931DCD855500CB56ED;
+			remoteInfo = macOSCoder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1620C941DCD855500CB56ED /* macOSCoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macOSCoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1620C971DCD855500CB56ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1620C981DCD855500CB56ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1620C9B1DCD855500CB56ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1620C9D1DCD855500CB56ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A1620C9E1DCD855500CB56ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A1620CA01DCD855500CB56ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1620CA51DCD855500CB56ED /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1620CAA1DCD855500CB56ED /* macOSCoderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macOSCoderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1620CAE1DCD855500CB56ED /* macOSCoderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = macOSCoderTests.m; sourceTree = "<group>"; };
+		A1620CB01DCD855500CB56ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1620CB51DCD855500CB56ED /* macOSCoderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macOSCoderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1620CB91DCD855500CB56ED /* macOSCoderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = macOSCoderUITests.m; sourceTree = "<group>"; };
+		A1620CBB1DCD855500CB56ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1620CC81DCD85FA00CB56ED /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A1620CCA1DCD898100CB56ED /* CPlusPlusBridge.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CPlusPlusBridge.mm; sourceTree = "<group>"; };
+		A1620CCC1DCD89CB00CB56ED /* CPlusPlusBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPlusPlusBridge.h; sourceTree = "<group>"; };
+		A1620CCD1DCD8C9B00CB56ED /* RunFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RunFactory.cpp; sourceTree = "<group>"; };
+		A1620CCE1DCD8C9B00CB56ED /* RunFactory.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RunFactory.hpp; sourceTree = "<group>"; };
+		A1620CD01DCD8EF200CB56ED /* Performer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Performer.cpp; sourceTree = "<group>"; };
+		A1620CD11DCD8EF200CB56ED /* Performer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Performer.hpp; sourceTree = "<group>"; };
+		A1620CD31DCE43DB00CB56ED /* LazySpellingBee.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LazySpellingBee.cpp; sourceTree = "<group>"; };
+		A1620CD41DCE43DB00CB56ED /* LazySpellingBee.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LazySpellingBee.hpp; sourceTree = "<group>"; };
+		A1620CD71DCE45F400CB56ED /* MakeDictionary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MakeDictionary.cpp; sourceTree = "<group>"; };
+		A1620CD81DCE45F400CB56ED /* MakeDictionary.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MakeDictionary.hpp; sourceTree = "<group>"; };
+		A1620CDA1DCE46A900CB56ED /* Dictionary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dictionary.cpp; sourceTree = "<group>"; };
+		A1620CDB1DCE46A900CB56ED /* Dictionary.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Dictionary.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1620C911DCD855500CB56ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1620CA71DCD855500CB56ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1620CB21DCD855500CB56ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1620C8B1DCD855500CB56ED = {
+			isa = PBXGroup;
+			children = (
+				A1620C961DCD855500CB56ED /* macOSCoder */,
+				A1620CAD1DCD855500CB56ED /* macOSCoderTests */,
+				A1620CB81DCD855500CB56ED /* macOSCoderUITests */,
+				A1620C951DCD855500CB56ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1620C951DCD855500CB56ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1620C941DCD855500CB56ED /* macOSCoder.app */,
+				A1620CAA1DCD855500CB56ED /* macOSCoderTests.xctest */,
+				A1620CB51DCD855500CB56ED /* macOSCoderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1620C961DCD855500CB56ED /* macOSCoder */ = {
+			isa = PBXGroup;
+			children = (
+				A1620C971DCD855500CB56ED /* AppDelegate.h */,
+				A1620C981DCD855500CB56ED /* AppDelegate.m */,
+				A1620CCC1DCD89CB00CB56ED /* CPlusPlusBridge.h */,
+				A1620CCA1DCD898100CB56ED /* CPlusPlusBridge.mm */,
+				A1620CDA1DCE46A900CB56ED /* Dictionary.cpp */,
+				A1620CDB1DCE46A900CB56ED /* Dictionary.hpp */,
+				A1620CD01DCD8EF200CB56ED /* Performer.cpp */,
+				A1620CD11DCD8EF200CB56ED /* Performer.hpp */,
+				A1620CCD1DCD8C9B00CB56ED /* RunFactory.cpp */,
+				A1620CCE1DCD8C9B00CB56ED /* RunFactory.hpp */,
+				A1620C9D1DCD855500CB56ED /* ViewController.h */,
+				A1620C9E1DCD855500CB56ED /* ViewController.m */,
+				A1620CA01DCD855500CB56ED /* Assets.xcassets */,
+				A1620CC81DCD85FA00CB56ED /* Main.storyboard */,
+				A1620CD61DCE440000CB56ED /* Performers */,
+				A1620C9A1DCD855500CB56ED /* Supporting Files */,
+			);
+			path = macOSCoder;
+			sourceTree = "<group>";
+		};
+		A1620C9A1DCD855500CB56ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1620CA51DCD855500CB56ED /* Info.plist */,
+				A1620C9B1DCD855500CB56ED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1620CAD1DCD855500CB56ED /* macOSCoderTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1620CAE1DCD855500CB56ED /* macOSCoderTests.m */,
+				A1620CB01DCD855500CB56ED /* Info.plist */,
+			);
+			path = macOSCoderTests;
+			sourceTree = "<group>";
+		};
+		A1620CB81DCD855500CB56ED /* macOSCoderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1620CB91DCD855500CB56ED /* macOSCoderUITests.m */,
+				A1620CBB1DCD855500CB56ED /* Info.plist */,
+			);
+			path = macOSCoderUITests;
+			sourceTree = "<group>";
+		};
+		A1620CD61DCE440000CB56ED /* Performers */ = {
+			isa = PBXGroup;
+			children = (
+				A1620CD31DCE43DB00CB56ED /* LazySpellingBee.cpp */,
+				A1620CD41DCE43DB00CB56ED /* LazySpellingBee.hpp */,
+				A1620CD71DCE45F400CB56ED /* MakeDictionary.cpp */,
+				A1620CD81DCE45F400CB56ED /* MakeDictionary.hpp */,
+			);
+			name = Performers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1620C931DCD855500CB56ED /* macOSCoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1620CBE1DCD855500CB56ED /* Build configuration list for PBXNativeTarget "macOSCoder" */;
+			buildPhases = (
+				A1620C901DCD855500CB56ED /* Sources */,
+				A1620C911DCD855500CB56ED /* Frameworks */,
+				A1620C921DCD855500CB56ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macOSCoder;
+			productName = macOSCoder;
+			productReference = A1620C941DCD855500CB56ED /* macOSCoder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1620CA91DCD855500CB56ED /* macOSCoderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1620CC11DCD855500CB56ED /* Build configuration list for PBXNativeTarget "macOSCoderTests" */;
+			buildPhases = (
+				A1620CA61DCD855500CB56ED /* Sources */,
+				A1620CA71DCD855500CB56ED /* Frameworks */,
+				A1620CA81DCD855500CB56ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1620CAC1DCD855500CB56ED /* PBXTargetDependency */,
+			);
+			name = macOSCoderTests;
+			productName = macOSCoderTests;
+			productReference = A1620CAA1DCD855500CB56ED /* macOSCoderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1620CB41DCD855500CB56ED /* macOSCoderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1620CC41DCD855500CB56ED /* Build configuration list for PBXNativeTarget "macOSCoderUITests" */;
+			buildPhases = (
+				A1620CB11DCD855500CB56ED /* Sources */,
+				A1620CB21DCD855500CB56ED /* Frameworks */,
+				A1620CB31DCD855500CB56ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1620CB71DCD855500CB56ED /* PBXTargetDependency */,
+			);
+			name = macOSCoderUITests;
+			productName = macOSCoderUITests;
+			productReference = A1620CB51DCD855500CB56ED /* macOSCoderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1620C8C1DCD855500CB56ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Andy Warner";
+				TargetAttributes = {
+					A1620C931DCD855500CB56ED = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					A1620CA91DCD855500CB56ED = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A1620C931DCD855500CB56ED;
+					};
+					A1620CB41DCD855500CB56ED = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A1620C931DCD855500CB56ED;
+					};
+				};
+			};
+			buildConfigurationList = A1620C8F1DCD855500CB56ED /* Build configuration list for PBXProject "macOSCoder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1620C8B1DCD855500CB56ED;
+			productRefGroup = A1620C951DCD855500CB56ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1620C931DCD855500CB56ED /* macOSCoder */,
+				A1620CA91DCD855500CB56ED /* macOSCoderTests */,
+				A1620CB41DCD855500CB56ED /* macOSCoderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1620C921DCD855500CB56ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1620CA11DCD855500CB56ED /* Assets.xcassets in Resources */,
+				A1620CC71DCD85C900CB56ED /* Info.plist in Resources */,
+				A1620CC91DCD85FA00CB56ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1620CA81DCD855500CB56ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1620CB31DCD855500CB56ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1620C901DCD855500CB56ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1620CD21DCD8EF200CB56ED /* Performer.cpp in Sources */,
+				A1620CD51DCE43DB00CB56ED /* LazySpellingBee.cpp in Sources */,
+				A1620CCB1DCD898100CB56ED /* CPlusPlusBridge.mm in Sources */,
+				A1620C9F1DCD855500CB56ED /* ViewController.m in Sources */,
+				A1620CCF1DCD8C9B00CB56ED /* RunFactory.cpp in Sources */,
+				A1620C9C1DCD855500CB56ED /* main.m in Sources */,
+				A1620C991DCD855500CB56ED /* AppDelegate.m in Sources */,
+				A1620CD91DCE45F400CB56ED /* MakeDictionary.cpp in Sources */,
+				A1620CDC1DCE46A900CB56ED /* Dictionary.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1620CA61DCD855500CB56ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1620CAF1DCD855500CB56ED /* macOSCoderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1620CB11DCD855500CB56ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1620CBA1DCD855500CB56ED /* macOSCoderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1620CAC1DCD855500CB56ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1620C931DCD855500CB56ED /* macOSCoder */;
+			targetProxy = A1620CAB1DCD855500CB56ED /* PBXContainerItemProxy */;
+		};
+		A1620CB71DCD855500CB56ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1620C931DCD855500CB56ED /* macOSCoder */;
+			targetProxy = A1620CB61DCD855500CB56ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A1620CBC1DCD855500CB56ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A1620CBD1DCD855500CB56ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A1620CBF1DCD855500CB56ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macOSCoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.winc.macOSCoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A1620CC01DCD855500CB56ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macOSCoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.winc.macOSCoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A1620CC21DCD855500CB56ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macOSCoderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.winc.macOSCoderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macOSCoder.app/Contents/MacOS/macOSCoder";
+			};
+			name = Debug;
+		};
+		A1620CC31DCD855500CB56ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macOSCoderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.winc.macOSCoderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macOSCoder.app/Contents/MacOS/macOSCoder";
+			};
+			name = Release;
+		};
+		A1620CC51DCD855500CB56ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macOSCoderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.winc.macOSCoderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = macOSCoder;
+			};
+			name = Debug;
+		};
+		A1620CC61DCD855500CB56ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macOSCoderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.winc.macOSCoderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = macOSCoder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1620C8F1DCD855500CB56ED /* Build configuration list for PBXProject "macOSCoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1620CBC1DCD855500CB56ED /* Debug */,
+				A1620CBD1DCD855500CB56ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1620CBE1DCD855500CB56ED /* Build configuration list for PBXNativeTarget "macOSCoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1620CBF1DCD855500CB56ED /* Debug */,
+				A1620CC01DCD855500CB56ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A1620CC11DCD855500CB56ED /* Build configuration list for PBXNativeTarget "macOSCoderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1620CC21DCD855500CB56ED /* Debug */,
+				A1620CC31DCD855500CB56ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A1620CC41DCD855500CB56ED /* Build configuration list for PBXNativeTarget "macOSCoderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1620CC51DCD855500CB56ED /* Debug */,
+				A1620CC61DCD855500CB56ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1620C8C1DCD855500CB56ED /* Project object */;
+}
