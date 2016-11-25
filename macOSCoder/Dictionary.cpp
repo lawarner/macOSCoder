@@ -2,7 +2,7 @@
 //  Dictionary.cpp
 //  macOSCoder
 //
-//  Copyright © 2016 Andy Warner. All rights reserved.
+//  Copyright © 2016 Andy Warner.
 //
 //    Licensed under the Apache License, Version 2.0 (the "License");
 //    you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@
 //    specific language governing permissions and limitations under the License.
 //
 // sample text:
-// hey i really do not care what kind of hero you may think you are because nothing
+// hey i really do not care what kind of hero you may think you are because he is nothing in comparison dude
 #include "Dictionary.hpp"
 
 #include <cmath>

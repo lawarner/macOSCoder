@@ -2,7 +2,7 @@
 //  CPlusPlusBridge.m
 //  macOSCoder
 //
-//  Copyright © 2016 Andy Warner. All rights reserved.
+//  Copyright © 2016 Andy Warner.
 //
 //    Licensed under the Apache License, Version 2.0 (the "License");
 //    you may not use this file except in compliance with the License.
@@ -16,15 +16,16 @@
 //    specific language governing permissions and limitations under the License.
 //
 
-#import "RunFactory.hpp"
 #import "CPlusPlusBridge.h"
+#import "KnapSack.hpp"
 #import "LazySpellingBee.hpp"
 #import "MakeDictionary.hpp"
+#import "NotSoRandom.hpp"
+#import "RobotRockBand.hpp"
+#import "RunFactory.hpp"
 #if 0
 #import "MaximizeCredit.hpp"
-#import "NotSoRandom.hpp"
 #import "PermuteString.hpp"
-#import "RobotRockBand.hpp"
 #import "SortString.hpp"
 #endif
 
@@ -48,11 +49,14 @@
         return retval;
     }
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"words" ofType:@"txt"];
-    filePath = [filePath substringToIndex:filePath.length - 9];
-    NSUInteger fpLen = [filePath length] + 1;
-    char chFilePath [fpLen];
+    filePath = [filePath stringByDeletingLastPathComponent];
+//    filePath = [filePath substringToIndex:filePath.length - 10];
+//    filePath = [filePath stringByAppendingPathComponent:@"data"];
+
+    NSUInteger fpLen = [filePath length] + 2;
+    char chFilePath[fpLen];
     [filePath getCString:chFilePath maxLength:fpLen encoding:NSASCIIStringEncoding];
-    
+
     StringList args;
     for (NSString *argument in arguments) {
         NSUInteger argLen = [argument length] + 1;
@@ -106,12 +110,13 @@
 
 - (void)setup {
     RunFactory* factory = RunFactory::instance();
-    
+
+    factory->addPerformer("Knap Sack", new KnapSack);
     factory->addPerformer("Lazy Spelling Bee", new LazySpellingBee);
     factory->addPerformer("MakeDictionary", new MakeDictionary);
-#if 0
     factory->addPerformer("Not So Random", new NotSoRandom);
     factory->addPerformer("Robot Rock Band", new RobotRockBand);
+#if 0
     factory->addPerformer("MaximizeCredit", new MaximizeCredit);
     MakeDictionary* makeDictionary = new MakeDictionary;
     factory->addPerformer("MakeDictionary", makeDictionary);

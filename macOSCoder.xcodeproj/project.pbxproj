@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A107331A1DCEC18300EA6526 /* NotSoRandom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A10733161DCEC18300EA6526 /* NotSoRandom.cpp */; };
+		A107331B1DCEC18300EA6526 /* RobotRockBand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A10733181DCEC18300EA6526 /* RobotRockBand.cpp */; };
+		A10733231DCEC3F500EA6526 /* NSR-example.txt in Resources */ = {isa = PBXBuildFile; fileRef = A107331D1DCEC3F500EA6526 /* NSR-example.txt */; };
+		A10733241DCEC3F500EA6526 /* NSR-large.txt in Resources */ = {isa = PBXBuildFile; fileRef = A107331E1DCEC3F500EA6526 /* NSR-large.txt */; };
+		A10733251DCEC3F500EA6526 /* NSR-small.txt in Resources */ = {isa = PBXBuildFile; fileRef = A107331F1DCEC3F500EA6526 /* NSR-small.txt */; };
+		A10733261DCEC3F500EA6526 /* RRB-example.txt in Resources */ = {isa = PBXBuildFile; fileRef = A10733201DCEC3F500EA6526 /* RRB-example.txt */; };
+		A10733271DCEC3F500EA6526 /* RRB-large.txt in Resources */ = {isa = PBXBuildFile; fileRef = A10733211DCEC3F500EA6526 /* RRB-large.txt */; };
+		A10733281DCEC3F500EA6526 /* RRB-small.txt in Resources */ = {isa = PBXBuildFile; fileRef = A10733221DCEC3F500EA6526 /* RRB-small.txt */; };
+		A107332A1DCED00E00EA6526 /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = A10733291DCED00E00EA6526 /* words.txt */; };
+		A10733301DD0213300EA6526 /* Hamilton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A107332E1DD0213300EA6526 /* Hamilton.cpp */; };
+		A10733331DD0257900EA6526 /* KnapSack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A10733311DD0257900EA6526 /* KnapSack.cpp */; };
+		A10733351DD1831800EA6526 /* KnapSack-example.txt in Resources */ = {isa = PBXBuildFile; fileRef = A10733341DD1831800EA6526 /* KnapSack-example.txt */; };
 		A1620C991DCD855500CB56ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1620C981DCD855500CB56ED /* AppDelegate.m */; };
 		A1620C9C1DCD855500CB56ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1620C9B1DCD855500CB56ED /* main.m */; };
 		A1620C9F1DCD855500CB56ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1620C9E1DCD855500CB56ED /* ViewController.m */; };
@@ -41,6 +53,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A10733161DCEC18300EA6526 /* NotSoRandom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NotSoRandom.cpp; sourceTree = "<group>"; };
+		A10733171DCEC18300EA6526 /* NotSoRandom.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NotSoRandom.hpp; sourceTree = "<group>"; };
+		A10733181DCEC18300EA6526 /* RobotRockBand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RobotRockBand.cpp; sourceTree = "<group>"; };
+		A10733191DCEC18300EA6526 /* RobotRockBand.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RobotRockBand.hpp; sourceTree = "<group>"; };
+		A107331D1DCEC3F500EA6526 /* NSR-example.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "NSR-example.txt"; path = "data/NSR-example.txt"; sourceTree = "<group>"; };
+		A107331E1DCEC3F500EA6526 /* NSR-large.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "NSR-large.txt"; path = "data/NSR-large.txt"; sourceTree = "<group>"; };
+		A107331F1DCEC3F500EA6526 /* NSR-small.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "NSR-small.txt"; path = "data/NSR-small.txt"; sourceTree = "<group>"; };
+		A10733201DCEC3F500EA6526 /* RRB-example.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "RRB-example.txt"; path = "data/RRB-example.txt"; sourceTree = "<group>"; };
+		A10733211DCEC3F500EA6526 /* RRB-large.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "RRB-large.txt"; path = "data/RRB-large.txt"; sourceTree = "<group>"; };
+		A10733221DCEC3F500EA6526 /* RRB-small.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "RRB-small.txt"; path = "data/RRB-small.txt"; sourceTree = "<group>"; };
+		A10733291DCED00E00EA6526 /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = words.txt; path = data/words.txt; sourceTree = "<group>"; };
+		A107332E1DD0213300EA6526 /* Hamilton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Hamilton.cpp; sourceTree = "<group>"; };
+		A107332F1DD0213300EA6526 /* Hamilton.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Hamilton.hpp; sourceTree = "<group>"; };
+		A10733311DD0257900EA6526 /* KnapSack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KnapSack.cpp; sourceTree = "<group>"; };
+		A10733321DD0257900EA6526 /* KnapSack.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = KnapSack.hpp; sourceTree = "<group>"; };
+		A10733341DD1831800EA6526 /* KnapSack-example.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "KnapSack-example.txt"; path = "data/KnapSack-example.txt"; sourceTree = "<group>"; };
 		A1620C941DCD855500CB56ED /* macOSCoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macOSCoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1620C971DCD855500CB56ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A1620C981DCD855500CB56ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -95,6 +123,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A10733151DCEBB9700EA6526 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				A107331D1DCEC3F500EA6526 /* NSR-example.txt */,
+				A107331E1DCEC3F500EA6526 /* NSR-large.txt */,
+				A107331F1DCEC3F500EA6526 /* NSR-small.txt */,
+				A10733201DCEC3F500EA6526 /* RRB-example.txt */,
+				A10733211DCEC3F500EA6526 /* RRB-large.txt */,
+				A10733221DCEC3F500EA6526 /* RRB-small.txt */,
+				A10733291DCED00E00EA6526 /* words.txt */,
+				A10733341DD1831800EA6526 /* KnapSack-example.txt */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
 		A1620C8B1DCD855500CB56ED = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +161,7 @@
 		A1620C961DCD855500CB56ED /* macOSCoder */ = {
 			isa = PBXGroup;
 			children = (
+				A10733151DCEBB9700EA6526 /* data */,
 				A1620C971DCD855500CB56ED /* AppDelegate.h */,
 				A1620C981DCD855500CB56ED /* AppDelegate.m */,
 				A1620CCC1DCD89CB00CB56ED /* CPlusPlusBridge.h */,
@@ -172,6 +216,14 @@
 				A1620CD41DCE43DB00CB56ED /* LazySpellingBee.hpp */,
 				A1620CD71DCE45F400CB56ED /* MakeDictionary.cpp */,
 				A1620CD81DCE45F400CB56ED /* MakeDictionary.hpp */,
+				A10733161DCEC18300EA6526 /* NotSoRandom.cpp */,
+				A10733171DCEC18300EA6526 /* NotSoRandom.hpp */,
+				A10733181DCEC18300EA6526 /* RobotRockBand.cpp */,
+				A10733191DCEC18300EA6526 /* RobotRockBand.hpp */,
+				A107332E1DD0213300EA6526 /* Hamilton.cpp */,
+				A107332F1DD0213300EA6526 /* Hamilton.hpp */,
+				A10733311DD0257900EA6526 /* KnapSack.cpp */,
+				A10733321DD0257900EA6526 /* KnapSack.hpp */,
 			);
 			name = Performers;
 			sourceTree = "<group>";
@@ -282,8 +334,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A10733261DCEC3F500EA6526 /* RRB-example.txt in Resources */,
+				A10733271DCEC3F500EA6526 /* RRB-large.txt in Resources */,
 				A1620CA11DCD855500CB56ED /* Assets.xcassets in Resources */,
+				A10733231DCEC3F500EA6526 /* NSR-example.txt in Resources */,
+				A10733251DCEC3F500EA6526 /* NSR-small.txt in Resources */,
 				A1620CC71DCD85C900CB56ED /* Info.plist in Resources */,
+				A10733351DD1831800EA6526 /* KnapSack-example.txt in Resources */,
+				A10733241DCEC3F500EA6526 /* NSR-large.txt in Resources */,
+				A10733281DCEC3F500EA6526 /* RRB-small.txt in Resources */,
+				A107332A1DCED00E00EA6526 /* words.txt in Resources */,
 				A1620CC91DCD85FA00CB56ED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +369,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A10733331DD0257900EA6526 /* KnapSack.cpp in Sources */,
+				A107331B1DCEC18300EA6526 /* RobotRockBand.cpp in Sources */,
 				A1620CD21DCD8EF200CB56ED /* Performer.cpp in Sources */,
 				A1620CD51DCE43DB00CB56ED /* LazySpellingBee.cpp in Sources */,
 				A1620CCB1DCD898100CB56ED /* CPlusPlusBridge.mm in Sources */,
@@ -317,6 +379,8 @@
 				A1620C9C1DCD855500CB56ED /* main.m in Sources */,
 				A1620C991DCD855500CB56ED /* AppDelegate.m in Sources */,
 				A1620CD91DCE45F400CB56ED /* MakeDictionary.cpp in Sources */,
+				A10733301DD0213300EA6526 /* Hamilton.cpp in Sources */,
+				A107331A1DCEC18300EA6526 /* NotSoRandom.cpp in Sources */,
 				A1620CDC1DCE46A900CB56ED /* Dictionary.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -533,6 +597,7 @@
 				A1620CC01DCD855500CB56ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1620CC11DCD855500CB56ED /* Build configuration list for PBXNativeTarget "macOSCoderTests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +606,7 @@
 				A1620CC31DCD855500CB56ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1620CC41DCD855500CB56ED /* Build configuration list for PBXNativeTarget "macOSCoderUITests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +615,7 @@
 				A1620CC61DCD855500CB56ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

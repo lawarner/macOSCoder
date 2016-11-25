@@ -48,6 +48,7 @@ void BasePerformer::getOutput(std::string& output)
 void BasePerformer::setDirectory(const std::string& filePath)
 {
     filePath_ = filePath;
+    if (filePath_.back() != '/') filePath_.push_back('/');
 }
 
 CodeJamPerformer::CodeJamPerformer(const std::string name)
@@ -71,7 +72,7 @@ int CodeJamPerformer::perform(const std::string& fileName, const StringList& arg
     ifstream ins(filePath_ + fileName);
     if (!ins.is_open())
     {
-        log_ << "Could not open " << filePath_ + fileName << ", errno: " << errno << endl;
+        log_ << "Could not open " << filePath_ + fileName << "\n  errno: " << errno << endl;
         return -1;
     }
     int retval = 0;
